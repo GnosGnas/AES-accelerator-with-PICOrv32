@@ -28,6 +28,7 @@ test_tb: AES/Testbench/tb.v AES/Top_module/AES.v AES/Encryption/AddRoundKey.v AE
 	@echo "Compiling and executing tb.v"
 	@iverilog -o tb_exe $^
 	@./tb_exe
+	@rm tb_exe
 
 test: testbench.vvp firmware/firmware.hex
 	$(VVP) -N $<
