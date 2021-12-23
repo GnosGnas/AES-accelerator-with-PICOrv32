@@ -9,6 +9,12 @@ This project was in collaboration with [Saurav Kale](https://github.com/siriusBl
 * After understanding the test files, modify the **AES_mem_mapped.c** file according to your needs.
 * In this folder, run the command **"make"**.
 
+## Interfacing with PICOrv32:
+There are two codes: arb_mem_periph.v and axi4_mem_periph.v. 
+To change the bus change it in the rule testbench.vpp in the Makefile.
+We have tested our accelerator only with AXI4lite and the Makefile also uses its verilog file.
+
+
 ## Required compliers:
 * iverilog
 * riscv-unknown-elf
