@@ -1,6 +1,6 @@
 
 # EE2003 Final Project: AES-Accelerator
-This project was in collaboration with @siriusBl4ck and @Ruban-VP
+This project was in collaboration with [Saurav Kale](https://github.com/siriusBl4ck) and [Ruban VP](https://github.com/Ruban-VP).
 
 ## How to use the peripheral:
 * The C code for testing the accelerator named **AES_mem_mapped.c** is present inside the folder **firmware**.
